@@ -17,7 +17,9 @@ to make the distrobox hostname same as machine hostname to prevent ROS communica
 
 ## The Touch (3d Pen)
 ### Install Touch Drivers
-Go into ~/catkin_ws/src/openhaptics…amd64$ and type sudo ./install to install further Touch device drivers. When prompted, type [y] to restart the computer
+Go into ~/catkin_ws/src/openhaptics…amd64$ or where you download the drivers from (https://support.3dsystems.com/s/article/OpenHaptics-for-Linux-Developer-Edition-v34?language=en_US) and type sudo ./install to install further Touch device drivers. When prompted, type [y] to restart the computer
+
+if there are any issues with the drivers check them out here (https://www.daslhub.org/unlv/wiki/lib/exe/fetch.php?media=touch_drivers_src.zip)
 
 ### Relocate Necessary Libraries
 Once your computer restarts, cd into touch driver. Then cd usr/lib to go into the lib folder. Type sudo cp <libphantom.so file> /usr/lib/ to move this library into the proper path
