@@ -42,6 +42,8 @@ When that has finished, type roslaunch omni_common omni.launch to launch RViz.
 
 If everything is done correctly, RViz should have opened and you can see a 3D simulation of the Touch device with a blue stylus and blue head. Take the stylus out of the inkwell and you should see the simulation move with you.
 
+If not all joints are published or if the position is fixed and only orentation is changing, change LC_NUMERIC and LANG to "en_US.UTF-8" or put LC_ALL to "en_US.UTF-8"
+
 ## Universal Robot Drivers
 Look at the Documentation of UR ROS drivers to install from source
 
