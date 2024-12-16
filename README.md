@@ -58,7 +58,11 @@ make sure EtherNet/IP is disable
 run roslaunch ur_robot_driver ur3_bringup.launch robot_ip:=192.168.1.102
 ```
 
+wait for message of started controllers
 start program on TP
+(start and stop the program, would not work if program was paused and now resumed)
+TP Program: make a new program:
+	structure>URCAPS>External control
 wait for
 ```bash
 ready to recieve command
