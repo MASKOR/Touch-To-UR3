@@ -32,14 +32,6 @@ Note: initialization is required everytime the device in plugin
  ### Adding Configuration Files
  Cd bin and run ./Touch_Setup . A menu should appear and show you the name of the device and the serial number. Just click ‘apply’ there's no need to change anything right now. This step adds configuration files necessary to operate the Touch.
 
- ### Editing .cpp Files
- Next, we need to locate two .cpp files and make a minor change. Both are located through the path (/catkin_ws/src/phantom_omni/omni_common/src). gedit the omni.cpp file first. Use ctrl+f and type in “hHD =” this should find only one reference. change this line to read “hHD = hdInitDevice(“Default Device”) *This is case and space sensitive* save the file using ctrl+s and close the window.
-
- Go into the omni_state.cpp file and repeat above step. Make sure to save the changes
-
- ### Edit omni.lauch File
- Go back to your terminal and change path to (/catkin_ws/src/phantom_omni/omni_common/launch). Gedit omni.launch to open the file. On line 3, the last few words should say type=”state_publisher” to type=”robot_state_publisher”. (Just add ‘robot_’ within the parentheses). Make sure to save the changes.
-
  ### Source setup.bash
  be sure to sure to source the setup.bash file
 
