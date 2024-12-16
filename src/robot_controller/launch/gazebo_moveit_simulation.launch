@@ -1,0 +1,21 @@
+<launch>
+    <!-- Include moni_common omni.launch -->
+    <include file="$(find omni_common)/launch/omni.launch" />
+
+    <!-- Include r_gazebo ur3_bringup.launch -->
+    <include file="$(find ur_gazebo)/launch/ur3_bringup.launch" />
+
+    <!-- Include ur3_moveit_config moveit_planning_execution.launch with sim:=true -->
+    <include file="$(find ur3_moveit_config)/launch/moveit_planning_execution.launch">
+        <arg name="sim" value="true" />
+    </include>
+
+    <!-- Include Middle-None-->
+    <include file />
+
+    <!-- Include robot state-->
+    <include file />
+
+    <!-- Include Virtual spring-->
+    <include file />    
+</launch>
