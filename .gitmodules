@@ -1,9 +1,9 @@
-[submodule "src/Universal_Robots_ROS_Driver"]
-	path = src/Universal_Robots_ROS_Driver
+[submodule "Universal_Robots_ROS_Driver"]
+	path = Universal_Robots_ROS_Driver
 	url = https://github.com/akshit-mee/Universal_Robots_ROS_Driver
-[submodule "src/Geomagic_Touch_ROS_Drivers"]
-	path = src/Geomagic_Touch_ROS_Drivers
+[submodule "Geomagic_Touch_ROS_Drivers"]
+	path = Geomagic_Touch_ROS_Drivers
 	url = https://github.com/akshit-mee/Geomagic_Touch_ROS_Drivers
-[submodule "src/universal_robot"]
-	path = src/universal_robot
+[submodule "universal_robot"]
+	path = universal_robot
 	url = https://github.com/akshit-mee/universal_robot.git

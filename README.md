@@ -44,7 +44,7 @@ Note: initialization is required everytime the device in plugin
  be sure to sure to source the setup.bash file
 
 ### Testing / Launch RViz
-When that has finished, type <roslaunch omni_common omni.launch> to launch RViz.
+When that has finished, type roslaunch omni_common omni.launch to launch RViz.
 
 If everything is done correctly, RViz should have opened and you can see a 3D simulation of the Touch device with a blue stylus and blue head. Take the stylus out of the inkwell and you should see the simulation move with you.
 
